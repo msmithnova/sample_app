@@ -8,7 +8,27 @@ development:
   database: db/development.sqlite3
   pool: 5
   timeout: 5000
+# development:
+  # adapter: postgresql
+  # host: localhost
+  # username: postgres
+  # password: 1423post
+  # database: app-dev
 
+  # test:
+  # adapter: postgresql
+  # database: app-test
+  # username: postgres
+  # password: 1423post
+  # host: localhost
+
+# production:
+  # adapter: postgresql
+  # database: app-live
+  # username: postgres
+  # password: 1423post
+  # host: localhost
+  
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
